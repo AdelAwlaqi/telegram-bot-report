@@ -14,9 +14,7 @@ import os
 from telegram import Update, InputFile
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
-from dotenv import load_dotenv
 
-load_dotenv()  # loads .env file
 
 # =============== إعدادات عامة ===============
 TOKEN = os.getenv("BOT_TOKEN")  # instead of hardcoding token
