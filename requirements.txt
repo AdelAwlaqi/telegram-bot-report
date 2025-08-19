@@ -1,0 +1,7 @@
+pandas
+python-telegram-bot==21.7
+matplotlib
+arabic-reshaper
+python-bidi
+openpyxl
+xlsxwriter
