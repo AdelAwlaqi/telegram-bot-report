@@ -17,7 +17,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, ContextTyp
 
 
 # =============== إعدادات عامة ===============
-BOT_TOKEN = os.getenv("BOT_TOKEN")  # instead of hardcoding token
+BOT_TOKEN = "8428782467:AAEtssvyqFtv8fuuvj2EuJ5qKBLEoyLFOoQ"
 TARGET_MONTHLY = 50_000  # الهدف الشهري (ر.س)
 
 # =============== لوجات ===============
@@ -27,6 +27,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+application = Application.builder().token(BOT_TOKEN).build()
 # =============== دعم العربية في الرسوم ===============
 # الخطوط: نحاول اختيار خط يدعم العربية
 matplotlib.rcParams["font.family"] = "sans-serif"
