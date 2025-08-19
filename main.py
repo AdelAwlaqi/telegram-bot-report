@@ -17,7 +17,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, ContextTyp
 
 
 # =============== إعدادات عامة ===============
-TOKEN = os.getenv("BOT_TOKEN")  # instead of hardcoding token
+BOT_TOKEN = os.getenv("BOT_TOKEN")  # instead of hardcoding token
 TARGET_MONTHLY = 50_000  # الهدف الشهري (ر.س)
 
 # =============== لوجات ===============
