@@ -1,7 +1,8 @@
 pandas
-python-telegram-bot==21.7
+python-telegram-bot==20.3
+openpyxl
+xlsxwriter
 matplotlib
 arabic-reshaper
 python-bidi
-openpyxl
-xlsxwriter
+python-dotenv
